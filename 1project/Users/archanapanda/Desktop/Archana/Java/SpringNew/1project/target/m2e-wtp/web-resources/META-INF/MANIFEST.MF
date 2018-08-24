@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: archanapanda
+Build-Jdk: 10.0.1
+Implementation-Title: 1project
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.archana.1project
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/1project
+Created-By: Maven Integration for Eclipse
+

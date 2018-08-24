@@ -1,0 +1,142 @@
+
+body{
+	font-size:1vw;
+}
+.col-2 img{
+	width:14vw;
+}
+.col-2 {
+	text-align:center;
+}
+
+
+body{
+    background: lightgray url("../img/bg-img.jpg") no-repeat fixed center; 
+    background-size: 100% 100%;
+    color:white;
+}
+.center{
+    text-align: center;
+}
+.right{
+	text-align: right;
+}
+.black{
+	color:black;
+}
+
+.diamond{
+    text-align: center;
+    height:800px;
+    background-color: black;
+    line-height: 800px;
+}
+.white{
+    color: white;
+    text-align: center;
+}
+.product img{
+    height:275px;
+    width:275px;
+    margin:20px;
+}
+.fixbg{
+    text-align: center;
+    margin-top: 50px;
+    color:gold;
+}
+.fixbgcol img{
+    width:25vw;
+}
+.fixbgcol{
+    border:7px solid gold;
+    margin:45px;
+}
+.spacer{
+    height:250px;
+}
+
+.storeBest{
+    color: silver;
+    text-align: center;
+}
+.rowBest{
+    margin:20px 0;
+}
+.rowBest img{
+    width:250px;
+    border:5px solid goldenrod;
+    border-radius: 25px;
+}
+.containerA strike{
+    font-size: smaller;
+    color: gray;
+}
+.containerA b{
+    font-size: larger;
+    color: gold;
+}
+
+.category img{
+    width:12vw;
+}
+.col-2{
+    margin:10px;
+}
+.gold{
+    background-color: goldenrod;
+    font-weight: bolder;
+    color: black;
+    width:12vw;
+}
+
+.category2 img{
+    width:18vw;
+    margin-bottom:2vw;
+}
+
+
+
+
+/* product overlays */
+.containerA {
+    position: relative;
+    width: 50%;
+}
+
+    .containerA .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+
+    .containerA .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    }
+
+    .containerA:hover .image {
+    opacity: 0.3;
+    }
+
+    .containerA:hover .middle {
+    opacity: 1;
+    }
+
+    .containerA .text {
+    /* background-color: grey; */
+    color: black;
+    font-size: 26px;
+    padding: 16px 32px;
+    border:2px solid black;
+    border-radius: 20px;
+    }
